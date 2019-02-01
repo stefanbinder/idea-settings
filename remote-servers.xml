@@ -3,6 +3,15 @@
     <remote-server name="Docker" type="docker">
       <configuration>
         <option name="apiUrl" value="unix:///var/run/docker.sock" />
+        <option name="certificatesPath" />
+        <option name="pathMappings">
+          <list>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="$USER_HOME$/projects/address" />
+              <option name="virtualMachinePath" value="/var/www/address" />
+            </DockerPathMappingImpl>
+          </list>
+        </option>
       </configuration>
     </remote-server>
   </component>
