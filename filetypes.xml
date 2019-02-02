@@ -1,8 +1,11 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern=".initialized" type="PLAIN_TEXT" />
+      <mapping pattern="docker" type="Dictionary" />
+      <mapping ext="dockerfile" type="Dockerfile" />
       <mapping pattern=".dont-touch" type="PLAIN_TEXT" />
+      <mapping pattern=".initialized" type="PLAIN_TEXT" />
+      <mapping ext="app" type="YAML" />
     </extensionMap>
   </component>
 </application>
