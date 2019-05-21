@@ -1,0 +1,10 @@
+<templateSet group="JavaScript">
+  <template name="cofu" value="const $NAME$ = ($PARAMS$) =&gt; {&#10;    $CONTENT$&#10;};" description="Const Function call" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
