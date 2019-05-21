@@ -20,4 +20,20 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="useState" value="const [ $NAME$, set$CAP_NAME$ ] = useState($DEFAULT$);" description="Quick way to initiate useState" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAP_NAME" expression="" defaultValue="capitalize(NAME)" alwaysStopAt="false" />
+    <variable name="DEFAULT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="useEff" value="useEffect(() =&gt; {&#10;    $CODE$&#10;}, [ $LISTEN$ ]);" description="Make an effect with listener" toReformat="false" toShortenFQNames="true">
+    <variable name="LISTEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
