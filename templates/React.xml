@@ -36,4 +36,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="jsrfc" value="&#10;import React from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;function $1$(props) {&#10;  return (&#10;    &lt;React.Fragment&gt;&#10;    &#10;    &lt;/React.Fragment&gt;&#10;  );&#10;}&#10;&#10;// We require the use of src and alt, only enforced by react in dev mode&#10;$1$.propTypes = {&#10;  &#10;};&#10;&#10;export default $1$;" description="React Function Component with PropTypes" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
